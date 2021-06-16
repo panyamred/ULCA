@@ -1,112 +1,47 @@
 const HeaderStyles = (theme) => ({
 
   root: {
-    background: "#eeeeee",
-    height: window.innerHeight
+    
   },
   drawerHeader: {
     display: "flex",
     flexDirection: "row",
   },
   toolbar: {
-    minHeight: "56px",
-    color: '#000000',
-    padding: '0'
-  },
-  title: {
-    color: 'white',
-    "@media (max-width:670px)": {
-      display: 'none'
-    },
-  },
-  alignItems: {
+    maxWidth: "1272px",
+    width : "100%",
+    margin :"0 auto",
     display: 'flex',
     alignItems: 'center',
+    padding:"0"
   },
-  iconButton: {
-    color: 'black',
-    borderRadius: 0,
-    maxHeight: '100%'
-  },
+  
+ 
+  
   menu: {
-    margin: '0% 2%',
     width: '100%',
     display: 'flex'
   },
   datasetOption: {
-    marginLeft: '8.4%',
-    "@media (max-width:670px)": {
-      marginLeft: '2%'
-    }
-  },
-  options: {
-    marginLeft: '1.875%'
+    marginLeft: '14.4%',
+    marginRight: '2.4%',
+    
   },
   profile: {
-    marginLeft: 'auto',
-    marginRight: '-1%'
+    marginLeft: 'auto'
   },
-  menuBtn: {
-    fontSize: '1rem',
-    color: 'white'
-  },
-  styledMenu: {
-    fontSize: '1rem',
-    // borderTop: "1px solid #D6D6D6"
-  },
+  
+ 
   profileName: {
     marginLeft: '0.5rem',
     "@media (max-width:800px)": {
       display: 'none'
     },
   },
-  homeBtn: {
-    display: 'none',
-    "@media (max-width:425px)": {
-      display: 'block'
-    }
-  },
+ 
 
-  dataset: {
-    "@media (max-width:425px)": {
-      display: 'none'
-    }
-  },
-  datasetMobile: {
-    display: 'none',
-    "@media (max-width:425px)": {
-      display: 'block'
-    }
-  },
-  model: {
-    "@media (max-width:425px)": {
-      display: 'none'
-    }
-  },
-  modelMobile: {
-    display: 'none',
-    "@media (max-width:425px)": {
-      display: 'block'
-    }
-  },
-  signIn: {
-    fontSize: '1rem',
-    color: 'white'
-  },
-  signUp: {
-    fontSize: '1rem',
-    color: 'white'
-  },
-  desktopAuth: {
-    "@media (max-width:400px)": {
-      display: 'none'
-    }
-  },
-  mobileAuth: {
-    display: 'none',
-    "@media (max-width:400px)": {
-      display: 'block'
-    }
-  }
+
+
+
 });
 export default HeaderStyles;

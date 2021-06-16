@@ -155,7 +155,7 @@ const ChartRender = (props) => {
 				<Header /><br /><br /><br /><br />
 			</MuiThemeProvider>
         	}
-                <div className	=	{classes.container}>
+                <div>
 			{/* <div className={classes.breadcrum}>
 				<BreadCrum links={["Dataset"]} activeLink="Submit Dataset" />
 			</div> */}

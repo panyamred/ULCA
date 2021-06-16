@@ -61,7 +61,7 @@ const Header = (props) => {
   }
   return (
     <div>
-      <AppBar color="primary">
+      <AppBar color="secondary" elevation = {0}>
         <Toolbar className={classes.toolbar}>
           <div className={classes.menu}>
             <Button className={classes.title}
@@ -103,15 +103,7 @@ const Header = (props) => {
                     <DownIcon />
                     </Button>
                   </div>
-                  <div className={classes.datasetMobile}>
-                    <Button className={classes.menuBtn}
-                      onClick={(e) => handleOpenMenu(e)}
-                      variant="text"
-                    >
-                      <DescriptionIcon fontSize="large" />
-                      <DownIcon />
-                    </Button>
-                  </div>
+                  
                   <StyledMenu id="data-set"
                     anchorEl={anchorEl}
                     open={Boolean(anchorEl)}
@@ -151,12 +143,7 @@ const Header = (props) => {
                     <DownIcon />
                     </Button>
                   </div>
-                  <div className={classes.modelMobile}>
-                    <Button className={classes.menuBtn} variant="text">
-                      <ChromeReaderModeIcon fontSize="large" />
-                      <DownIcon />
-                    </Button>
-                  </div>
+                  
                 </div>
               </>
             }

@@ -17,8 +17,10 @@ function App(props) {
   };
   return (
     <MuiThemeProvider theme={Theme}>
-      <div className={classes.root}>
+      <div >
+        <div className={classes.headerContainer}>
         <Header />
+        </div>
         <div className={classes.container}>
           {renderSpinner()}
           <Component />
