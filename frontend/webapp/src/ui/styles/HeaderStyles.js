@@ -8,6 +8,7 @@ const HeaderStyles = (theme) => ({
     flexDirection: "row",
   },
   toolbar: {
+    minHeight:"56px",
     maxWidth: "1272px",
     width : "100%",
     margin :"0 auto",

@@ -61,7 +61,7 @@ const Header = (props) => {
   }
   return (
     <div>
-      <AppBar color="secondary" elevation = {0}>
+      <AppBar color="secondary" elevation = {1}>
         <Toolbar className={classes.toolbar}>
           <div className={classes.menu}>
             <Button className={classes.title}

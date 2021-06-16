@@ -9,8 +9,8 @@ const GlobalStyles = (theme) => ({
   },
 
   headerContainer :{
-    border :"1 solid green",
-    height:"54px"
+    
+    height:"70px"
   }
   // root: {
 
