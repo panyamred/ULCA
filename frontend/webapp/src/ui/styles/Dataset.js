@@ -94,9 +94,9 @@ const DataSet = (theme) => ({
     //     marginBottom: '.6rem',
     //     boxSizing: 'border-box',
     // },
-    // buttonStyle: {
-    //     marginLeft: "0.7rem"
-    // },
+     buttonStyle: {
+         marginLeft: "0.7rem"
+     },
     // iconStyle: { marginRight: '.5rem' },
     // thumbsUpIcon: {
     //     margin: '24% 0 0 24%',
@@ -131,19 +131,19 @@ const DataSet = (theme) => ({
     // ButtonRefresh: {
     //     marginLeft: "auto"
     // },
-    // searchDivStyle: {
-    //     //padding: '0% 4%',
-    //     margin: '1% 2.5% 0 2.5%',
-    // },
-    // buttonDiv: {
-    //     margin: '0% 0 3% 0'
-    // },
-    // innerButton: {
-    //     margin: '0 2% 2% 0'
-    // },
-    // subHeader: {
-    //     marginBottom: '3%'
-    // },
+    searchDivStyle: {
+        //padding: '0% 4%',
+        margin: '1% 2.5% 0 2.5%',
+    },
+    buttonDiv: {
+        margin: '0% 0 3% 0'
+    },
+    innerButton: {
+        margin: '0 2% 2% 0'
+    },
+    subHeader: {
+        marginBottom: '3%'
+    },
     // clearNSubmit: {
     //     marginTop: '10vh',
     //     float: 'right'
@@ -223,7 +223,11 @@ const DataSet = (theme) => ({
     // blurOut:{
     //     zIndex: -1,
     //     opacity: '0.5'
-    // }
+    // },
+
+    searchLeftGrid:{
+
+    }
 });
 
 export default DataSet;

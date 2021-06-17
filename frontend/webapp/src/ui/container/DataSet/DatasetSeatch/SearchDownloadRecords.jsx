@@ -268,7 +268,7 @@ const SearchAndDownloadRecords = (props) => {
                 <BreadCrum links={(params === 'inprogress' || params === 'completed') ? [url, urlMySearch] : [url]} activeLink="Search & Download Records" />
             </div>
             <Grid container spacing={3}>
-                <Grid className={(params === 'inprogress' || params === 'completed') && classes.blurOut} item xs={12} sm={5} md={4} lg={4} xl={4}>
+                <Grid className={(params === 'inprogress' || params === 'completed') ? classes.blurOut : classes.searchLeftGrid} item xs={12} sm={5} md={4} lg={4} xl={4}>
 
                     <Typography className={classes.subHeader} variant="h6">Select Dataset Type</Typography>
 
